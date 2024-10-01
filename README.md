@@ -2,16 +2,15 @@
 - In this project, I explored sequence modeling using Recurrent Neural Networks (RNNs), LSTMs, and GRUs in TensorFlow.
 - You can get the code in [tensorflow_sequence_modeling.ipynb](./tensorflow_sequence_modeling.ipynb)
 
-## RNNs and LSTMs
-- Built a simple RNN and LSTM model for sequence prediction tasks using TensorFlow's `keras.layers.RNN` and `keras.layers.LSTM`.
+## Sequence Models
+- I built and trained sequence models using TensorFlow's RNN, LSTM, and GRU layers for time-series prediction tasks.
 
+### Accuracy Plot:
+- The model's accuracy over the training epochs was visualized.
 
-## GRUs for Sequence Data
-- Implemented Gated Recurrent Units (GRUs) for sequence prediction and demonstrated their effectiveness on time-series data.
+- A plot showing how accuracy improves over time during training.
 
-
-## Training and Predictions
-- Trained the models on sequential data and visualized the prediction results over time.
+![Accuracy](./screenshots/accuracy.JPG)
 
 
 ## Setup
